@@ -47,3 +47,26 @@
 - The else keyword can be used to perform some other code based on all the other conditions not satisfied with the if.
 - When you have an if/else condition that returns two different results, it is possible to drop the else keyword.
 - Always use triple equals (===) when comparing 2 values in JavaScript.
+
+## Arrays
+
+- array.length returns the number of elements inside the array.
+- array.push(x) allows you to add the variable x to the end of the array.
+- array.push(x) returns the new length of the array (after the push has been made).
+- Arrays defined with const are not constants because you can change the elements inside of it. However, you cannot re-assign them to another value thus they will always be an array.
+- .forEach(callback) iterates over every item in an array.
+- A callback is a function definition passed as an argument to another function.
+- The .forEach() method will take your function definition and call it for every item of the array. Every time it calls it, it will replace the first parameter with the corresponding array item.
+- The .filter() method returns a new array that contains some of the items from the original array, based on the condition you specify.
+- JavaScript will take your callback function and call it for every single item in the array.
+- For the .filter() method, the result of the callback function matters. When it's true, the item will be included in the resulting array. Otherwise, it won't.
+- The .find() method returns the first item which matches the condition that you specify. If no items were found, you will get back undefined.
+- The array .map(callback) method allows you to transform an array into another one.
+- The array .includes(item) method takes an item and returns true when that item exists in the array and false otherwise.
+- The array .join(glue) method returns a string of the array elements separated by the glue.
+
+## Objects
+
+- An object is a data type that allows you to group several variables together into one variable that contains keys and values.
+- It's recommended that you use camelCase for property names (for example firstName instead of first_name).
+- To read or update the value of a property, you can use the dot notation.
